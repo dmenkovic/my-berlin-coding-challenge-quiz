@@ -1,0 +1,51 @@
+/*
+Theme Name: Dobricina tema
+Theme URI: http://www.
+Author: Dobrica Menković
+Author URI: https://dobrica.000webhostapp.com/
+*/
+header, section, footer, aside, nav, main, article, figure {display: block;}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+html, body {
+	display: block;
+	-webkit-font-smoothing: antialiased;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: Verdana, Tahoma, Arial, sans-serif;/*font-family: "Lucida Sans", sans-serif;*/
+	width: 100%;
+	height: 100%;
+	color: #232525;
+}
+#wrapper {
+	width: 85%;
+	margin: auto;
+	text-align: center;
+}
+#colors {
+	width: 65%;
+	margin: auto;
+}
+#colors:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+.answer {
+	float: left;
+	margin: 20px;
+	border: 1px solid gray;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
